@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html ng-app="githubViewer">
+	<head>
+	
+	<script data-require="angular-js@*" data-semver="1.3.0-beta.5" src="assets/libs/angular.js" > </script>
+	<script data-require="angular-route@*" data-semver="1.2.14" src="assets/libs/angular-route.js" > </script>
+	
+	<script src="app.js"></script>
+	<script src="components/main/MainController.js"></script>
+	
+	</head>
+	<body>
+		<div>Header</div>
+	
+		<div ng-view></div>
+		<!--   Telling Angular that everything else will be controlled by the
+		routing angine and displayed inside this DIV, but the index.html -->
+	
+		<div>Footer</div>
+	</body>
+</html>
